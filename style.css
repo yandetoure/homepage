@@ -106,3 +106,78 @@ p .icon{
     background: #cf3034;
     color:#ffff ;
 }
+.ligne{
+    background: black;
+    width:110px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: -15px;
+
+}
+.titre-formateurs{
+    color: #cf3034;
+    font-size: 32px;
+    margin-left: 50px;
+}
+.formateurs{
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+.formateur{
+    padding-top: 40px;
+    display: flex;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 90px;
+    box-shadow: 1px 1px 8px 13px rgb(240, 239, 239);
+
+}
+.formateur hr{
+    width: 150px;
+    height: 5px;
+}
+.formateurs-texte-content p{
+    margin-right: 16px;
+}
+.formateurs-texte-content{
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.formateurs-texte-content button{
+    margin-bottom: 30px;
+    background: #cf3034;
+    border: 0px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #ffff;
+    margin-left: 230px;
+}
+.formateur img{
+    margin-left: -20px;
+    margin-top: -60px;
+    padding-bottom: 2px;
+    width: 280px; height: 230px;
+    border-radius: 10px; 
+    box-shadow: 1px 1px 8px 13px rgb(240, 239, 239);
+}
+.formateur .signe{
+    color: #ffff;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6px;
+    height: 50px;
+    padding-bottom: 8px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 430px;
+    margin-top: -60px;
+    position:absolute;
+    background: #cf3034;
+}
