@@ -9,7 +9,7 @@
 .nav-bar{
     display: flex;
     margin: 5px;
-    align-items: center;
+    align-items: center;rgb(255,255,255)
 }
 .button-navbar{
     display: flex;
@@ -90,11 +90,29 @@ li{
             display: block;
         }
         .actualite{
-            height: 500px;
-            width: 800px;
+            background-color: rgb(253,245,247);
+            height: 450px;
+            width: fit-content;
+            padding-left: 30%;
             display: flex;
+            padding-top: 15px;
+            padding-right: 30%;
         }
         .affiche{
-            height: 50%;
-            width: 100%;
+            background-color: rgba(253, 245, 247, 0.897);
+            height: 400px;
+            width: 350px;
+            background-color: bisque;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+        h2{
+            font-weight: bold;
+            color: rgb(212, 18, 66);
+        }
+        .texte{
+            font-family: "Arial", sans-serif; 
+            width: 420px;
+            padding-left: 55px;
+            font-size: 18px;
         }
