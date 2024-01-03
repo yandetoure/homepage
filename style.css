@@ -107,7 +107,7 @@ background-color: rgba(253, 245, 247, 0.897);
             border-radius: 30px;
             margin-top: 10px;
         }
-        h2{
+        .texte h2{
             font-weight: bold;
             color: rgb(212, 18, 66);
         }
@@ -116,6 +116,13 @@ background-color: rgba(253, 245, 247, 0.897);
             width: 420px;
             padding-left: 55px;
     font-size: 18px;
+}
+.events h2{
+    font-weight: bold;
+    color: rgb(212, 18, 66);
+}
+.contain h4{
+    color: #cf3034;
 }
 /* code formulaire */
 
