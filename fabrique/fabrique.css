@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Nunito+Sans:opsz@6..12&family=Nunito:wght@400;600&family=Roboto+Slab:wght@600&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.toolbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    padding-left: 50px;
+    padding-right: 0px;
+    padding-top: 1px;
+}
+.toolbar a{
+    margin: 40px;
+}
+.nav-bar{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+
+
+    background-color: rgb(255,255,255);
+
+}
+.button-navbar{
+    display: flex;
+    margin-left: 0px;
+}
+a{
+    margin: 0px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.button{
+    margin-left: 50px;
+    background-color: rgb(206,0,51);
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: none; 
+}
+.lang-menu {
+    position: relative;
+    display: inline-block;
+}
+.lang-button {
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.arrow-down {
+    border: solid rgb(206,0,51);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.lang-options {
+    position: absolute;
+    top: 100%;
+    display: none;
+    z-index: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+git.lang-option {
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.lang-option:hover {
+    background-color: #f2f2f2;
+}
+
+.lang-menu:hover .lang-options {
+    display: block;
+}
